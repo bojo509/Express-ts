@@ -1,0 +1,1 @@
+(Get-Content tsconfig.json) -replace '// "outDir": "./",', '  "outDir": "./dist",' | Set-Content tsconfig.json
